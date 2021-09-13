@@ -1,262 +1,886 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Media Pergerakan Resmi PMII Komisariat Airlangga Surabaya">
-    <meta name="keywords" content="pmii airlangga, pmii, airlangga, unair, universitas airlangga, surabaya">
-    <meta name="author" content="PMII Airlangga">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Media Pergerakan Resmi PMII Komisariat Airlangga Surabaya"
+    />
+    <meta
+      name="keywords"
+      content="pmii airlangga, pmii, airlangga, unair, universitas airlangga, surabaya"
+    />
+    <meta name="author" content="PMII Airlangga" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PMII Airlangga</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="/favicon.ico">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+  <body>
     <header class="w-full px-3 antialiased bg-blue-600 select-none lg:px-6">
-    <div class="mx-auto max-w-7xl">
+      <div class="mx-auto max-w-7xl">
         <nav class="flex items-center w-full h-24" x-data="{ showMenu: false }">
-            <div class="relative flex flex-wrap items-center justify-between w-full h-24 mx-auto font-medium md:justify-center">
-                <a href="#" class="w-1/4 py-4 pl-6 pr-4 md:pl-4 md:py-0">
-                    <img class="object-contain w-22 h-10" src="img/logo-light.png" alt="PMII Airlangga">
-                </a>
-                <div class="fixed top-0 left-0 z-40 items-center hidden w-full h-full p-3 text-xl bg-gray-900 bg-opacity-50 md:text-sm lg:text-base md:w-3/4 md:bg-transparent md:p-0 md:relative md:flex" :class="{'flex': showMenu, 'hidden': !showMenu }">
-                    <div class="flex-col w-full h-auto h-full overflow-hidden bg-white rounded-lg select-none md:bg-transparent md:rounded-none md:relative md:flex md:flex-row md:overflow-auto">
-                        <div class="flex flex-col items-center justify-center w-full h-full mt-12 text-center text-blue-600 md:text-indigo-200 md:w-2/3 md:mt-0 md:flex-row md:items-center">
-                            <a href="/" class="inline-block px-4 py-2 mx-2 font-medium text-left text-blue-600 md:text-white md:px-0 lg:mx-3 md:text-center">Beranda</a>
-                            <a href="https://linktr.ee/pmiiairlangga" target="_blank" class="inline-block px-0 px-4 py-2 mx-2 font-medium text-left md:px-0 hover:text-gray-900 md:hover:text-white lg:mx-3 md:text-center">Media Sosial</a>
-                        </div>
-                        <div class="flex flex-col items-center justify-end w-full h-full pt-4 md:w-1/3 md:flex-row md:py-0">
-                            <a href="https://linktr.ee/pmiiairlangga" target="_blank" class="inline-flex items-center justify-center px-4 py-2 mr-1 text-base font-medium leading-6 text-blue-600 whitespace-no-wrap transition duration-150 ease-in-out bg-blue-100 border border-transparent rounded-full hover:bg-white focus:outline-none focus:border-blue-700 focus:shadow-outline-indigo active:bg-indigo-700">Bergabung+</a>
-                        </div>
-                    </div>
+          <div
+            class="
+              relative
+              flex flex-wrap
+              items-center
+              justify-between
+              w-full
+              h-24
+              mx-auto
+              font-medium
+              md:justify-center
+            "
+          >
+            <a href="#" class="w-1/4 py-4 pl-6 pr-4 md:pl-4 md:py-0">
+              <img
+                class="object-contain w-22 h-10"
+                src="img/logo-light.png"
+                alt="PMII Airlangga"
+              />
+            </a>
+            <div
+              class="
+                fixed
+                top-0
+                left-0
+                z-40
+                items-center
+                hidden
+                w-full
+                h-full
+                p-3
+                text-xl
+                bg-gray-900 bg-opacity-50
+                md:text-sm
+                lg:text-base
+                md:w-3/4 md:bg-transparent md:p-0 md:relative md:flex
+              "
+              :class="{'flex': showMenu, 'hidden': !showMenu }"
+            >
+              <div
+                class="
+                  flex-col
+                  w-full
+                  h-auto h-full
+                  overflow-hidden
+                  bg-white
+                  rounded-lg
+                  select-none
+                  md:bg-transparent
+                  md:rounded-none
+                  md:relative
+                  md:flex
+                  md:flex-row
+                  md:overflow-auto
+                "
+              >
+                <div
+                  class="
+                    flex flex-col
+                    items-center
+                    justify-center
+                    w-full
+                    h-full
+                    mt-12
+                    text-center text-blue-600
+                    md:text-indigo-200
+                    md:w-2/3
+                    md:mt-0
+                    md:flex-row
+                    md:items-center
+                  "
+                >
+                  <a
+                    href="/"
+                    class="
+                      inline-block
+                      px-4
+                      py-2
+                      mx-2
+                      font-medium
+                      text-left text-blue-600
+                      md:text-white md:px-0
+                      lg:mx-3
+                      md:text-center
+                    "
+                    >Beranda</a
+                  >
+                  <a
+                    href="https://linktr.ee/pmiiairlangga"
+                    target="_blank"
+                    class="
+                      inline-block
+                      px-0 px-4
+                      py-2
+                      mx-2
+                      font-medium
+                      text-left
+                      md:px-0
+                      hover:text-gray-900
+                      md:hover:text-white
+                      lg:mx-3
+                      md:text-center
+                    "
+                    >Media Sosial</a
+                  >
                 </div>
-                <div @click="showMenu = !showMenu" class="absolute right-0 z-50 flex flex-col items-end w-10 h-10 p-2 mr-4 rounded-full cursor-pointer md:hidden" :class="{ 'text-blue-700 hover:bg-gray-200': showMenu, 'hover:bg-blue-700 text-indigo-200': !showMenu }">
-                    <svg class="w-6 h-6" x-show="!showMenu" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor" x-cloak>
-                        <path d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
-                    <svg class="w-6 h-6" x-show="showMenu" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" x-cloak>
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                    </svg>
+                <div
+                  class="
+                    flex flex-col
+                    items-center
+                    justify-end
+                    w-full
+                    h-full
+                    pt-4
+                    md:w-1/3 md:flex-row md:py-0
+                  "
+                >
+                  <a
+                    href="https://linktr.ee/pmiiairlangga"
+                    target="_blank"
+                    class="
+                      inline-flex
+                      items-center
+                      justify-center
+                      px-4
+                      py-2
+                      mr-1
+                      text-base
+                      font-medium
+                      leading-6
+                      text-blue-600
+                      whitespace-no-wrap
+                      transition
+                      duration-150
+                      ease-in-out
+                      bg-blue-100
+                      border border-transparent
+                      rounded-full
+                      hover:bg-white
+                      focus:outline-none
+                      focus:border-blue-700
+                      focus:shadow-outline-indigo
+                      active:bg-indigo-700
+                    "
+                    >Bergabung+</a
+                  >
                 </div>
+              </div>
             </div>
+            <div
+              @click="showMenu = !showMenu"
+              class="
+                absolute
+                right-0
+                z-50
+                flex flex-col
+                items-end
+                w-10
+                h-10
+                p-2
+                mr-4
+                rounded-full
+                cursor-pointer
+                md:hidden
+              "
+              :class="{ 'text-blue-700 hover:bg-gray-200': showMenu, 'hover:bg-blue-700 text-indigo-200': !showMenu }"
+            >
+              <svg
+                class="w-6 h-6"
+                x-show="!showMenu"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                x-cloak
+              >
+                <path d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+              <svg
+                class="w-6 h-6"
+                x-show="showMenu"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                x-cloak
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                ></path>
+              </svg>
+            </div>
+          </div>
         </nav>
         <div class="container py-32 mx-auto text-center sm:px-4">
-            <h1 class="text-4xl font-extrabold leading-10 tracking-tight text-white sm:text-5xl sm:leading-none md:text-6xl xl:text-7xl"><span class="block">Mari bergabung</span> <span class="relative inline-block mt-3 text-transparent text-white">bersama kami!</span></h1>
-            <div class="max-w-lg mx-auto mt-6 text-sm text-center text-indigo-200 md:mt-12 sm:text-base md:max-w-xl md:text-lg xl:text-xl">Menjadi bagian dari keluarga besar <br>PMII Komisariat Airlangga!</div>
-        </div>
-    </div>
-</h>
-
-            <section data-aos="fade-up" class="px-2 py-32 bg-white md:px-0">
-  <div class="container items-center max-w-6xl px-8 mx-auto xl:px-5">
-    <div class="flex flex-wrap items-center sm:-mx-3">
-      <div class="w-full md:w-1/2 md:px-3">
-        <div class="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
-          <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
-            <span class="block xl:inline" id="">Berproses dan Belajar bersama </span>
-            <span class="block text-yellow-500 xl:inline" id="">PMII Airlangga!</span>
+          <h1
+            class="
+              text-4xl
+              font-extrabold
+              leading-10
+              tracking-tight
+              text-white
+              sm:text-5xl sm:leading-none
+              md:text-6xl
+              xl:text-7xl
+            "
+          >
+            <span class="block">Mari bergabung</span>
+            <span class="relative inline-block mt-3 text-transparent text-white"
+              >bersama kami!</span
+            >
           </h1>
-          <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl" id="">Menjadi mahasiswa bukan hanya masalah akademik saja, lebih dari itu bersama PMII Airlangga kita bisa menjadi generasi pembawa perubahan bagi masyarakat.</p>
-          <div class="relative flex flex-col sm:flex-row sm:space-x-4">
-            <a href="https://linktr.ee/pmiiairlangga" target="_blank" class="flex items-center w-full px-6 py-3 mb-3 text-lg font-bold text-white bg-blue-600 rounded-md sm:mb-0 hover:bg-blue-700 sm:w-auto">
-              Yuk Bergabung
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-            </a>
+          <div
+            class="
+              max-w-lg
+              mx-auto
+              mt-6
+              text-sm text-center text-indigo-200
+              md:mt-12
+              sm:text-base
+              md:max-w-xl md:text-lg
+              xl:text-xl
+            "
+          >
+            Menjadi bagian dari keluarga besar <br />PMII Komisariat Airlangga!
           </div>
         </div>
       </div>
-      <div class="w-full md:w-1/2">
-        <div class="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
-            <img src="img/banner.jpg" class="">
+    </header>
+
+    <section data-aos="fade-up" class="px-2 py-32 bg-white md:px-0">
+      <div class="container items-center max-w-6xl px-8 mx-auto xl:px-5">
+        <div class="flex flex-wrap items-center sm:-mx-3">
+          <div class="w-full md:w-1/2 md:px-3">
+            <div
+              class="
+                w-full
+                pb-6
+                space-y-6
+                sm:max-w-md
+                lg:max-w-lg
+                md:space-y-4
+                lg:space-y-8
+                xl:space-y-9
+                sm:pr-5
+                lg:pr-0
+                md:pb-0
+              "
+            >
+              <h1
+                class="
+                  text-4xl
+                  font-extrabold
+                  tracking-tight
+                  text-gray-900
+                  sm:text-5xl
+                  md:text-4xl
+                  lg:text-5xl
+                  xl:text-6xl
+                "
+              >
+                <span class="block xl:inline" id=""
+                  >Berproses dan Belajar bersama
+                </span>
+                <span class="block text-yellow-500 xl:inline" id=""
+                  >PMII Airlangga!</span
+                >
+              </h1>
+              <p
+                class="
+                  mx-auto
+                  text-base text-gray-500
+                  sm:max-w-md
+                  lg:text-xl
+                  md:max-w-3xl
+                "
+                id=""
+              >
+                Menjadi mahasiswa bukan hanya masalah akademik saja, lebih dari
+                itu bersama PMII Airlangga kita bisa menjadi generasi pembawa
+                perubahan bagi masyarakat.
+              </p>
+              <div class="relative flex flex-col sm:flex-row sm:space-x-4">
+                <a
+                  href="https://linktr.ee/pmiiairlangga"
+                  target="_blank"
+                  class="
+                    flex
+                    items-center
+                    w-full
+                    px-6
+                    py-3
+                    mb-3
+                    text-lg
+                    font-bold
+                    text-white
+                    bg-blue-600
+                    rounded-md
+                    sm:mb-0
+                    hover:bg-blue-700
+                    sm:w-auto
+                  "
+                >
+                  Yuk Bergabung
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-5 h-5 ml-1"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
           </div>
+          <div class="w-full md:w-1/2">
+            <div
+              class="
+                w-full
+                h-auto
+                overflow-hidden
+                rounded-md
+                shadow-xl
+                sm:rounded-xl
+              "
+            >
+              <img src="img/banner.jpg" class="" />
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<section class="py-20 bg-white">
-    <div class="container max-w-6xl mx-auto">
-        <h2 class="text-4xl font-bold tracking-tight text-center">Rayon dalam PMII Airlangga</h2>
-        <p class="mt-2 text-lg text-center text-gray-600">Ada 7 Rayon bagian dari PMII Komisariat Airlangga.</p>
-        <div class="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0">
-
-            <div class="relative flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 overflow-hidden bg-gray-100 sm:rounded-xl">
-                <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
-                    <img src="img/humaniora.jpg" class="object-cover w-full h-full">
-                </div>
-                <a href="https://instagram.com/pmiirayonhumaniora" target="_blank" rel="noopener noreferrer"><h4 class="text-xl font-medium text-gray-700 hover:text-blue-600">Rayon Humaniora</h4></a>
-                <p class="text-base text-center text-gray-500">Rayon Humaniora merupakan rayon di Fakultas Ilmu Budaya.</p>
-            </div>
-
-            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
-                <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
-                    <img src="img/c.jpg" class="object-cover w-full h-full">
-                </div>
-                <a href="https://instagram.com/pmiicrayonairlangga" target="_blank" rel="noopener noreferrer"><h4 class="text-xl font-medium text-gray-700 hover:text-blue-600">Rayon C</h4></a>
-                <p class="text-base text-center text-gray-500">Rayon C merupakan rayon di kawasan kampus C terdiri dari FKH, FST, FPK, dan FTMM.</p>
-            </div>
-
-            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
-                <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
-                    <img src="img/fisip.jpg" class="object-cover w-full h-full">
-                </div>
-                <a href="https://instagram.com/pmiifisipunair" target="_blank" rel="noopener noreferrer"><h4 class="text-xl font-medium text-gray-700 hover:text-blue-600">Rayon FISIP</h4></a>
-                <p class="text-base text-center text-gray-500">Rayon FISIP merupakan rayon di Fakultas Imu Sosial dan Politik.</p>
-            </div>
-
-            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
-                <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
-                    <img src="img/vokasi.jpg" class="object-cover w-full h-full">
-                </div>
-                <a href="https://instagram.com/sahabat_vokasi" target="_blank" rel="noopener noreferrer"><h4 class="text-xl font-medium text-gray-700 hover:text-blue-600">Rayon Vokasi</h4></a>
-                <p class="text-base text-center text-gray-500">Rayon Vokasi merupakan rayon di Fakultas Vokasi.</p>
-            </div>
-
-            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
-                <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
-                    <img src="img/hukum.jpg" class="object-cover w-full h-full">
-                </div>
-                <a href="https://instagram.com/pmiifhunair" target="_blank" rel="noopener noreferrer"><h4 class="text-xl font-medium text-gray-700 hover:text-blue-600">Rayon Hukum</h4></a>
-                <p class="text-base text-center text-gray-500">Rayon Hukum merupakan rayon di Fakultas Hukum.</p>
-            </div>
-
-            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
-                    <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
-                        <img src="img/ekonomi.jpg" class="object-cover w-full h-full">
-                    </div>
-                    <a href="https://instagram.com/pmiiekonomiairlangga" target="_blank" rel="noopener noreferrer"><h4 class="text-xl font-medium text-gray-700 hover:text-blue-600">Rayon Ekonomi</h4></a>
-                    <p class="text-base text-center text-gray-500">Rayon Ekonomi merupakan rayon di Fakultas Ekonomi dan Bisnis.</p>
-            </div>
-
-            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
-                <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
-                    <img src="img/kesehatan.jpg" class="object-cover w-full h-full">
-                </div>
-                <a href="https://instagram.com/kesehatanairlangga" target="_blank" rel="noopener noreferrer"><h4 class="text-xl font-medium text-gray-700 hover:text-blue-600">Rayon Kesehatan</h4></a>
-                <p class="text-base text-center text-gray-500">Rayon Kesehatan merupakan rayon di rumpun ilmu kesehatan terdiri dari FK, FKG, FKP, FKM, dan FF.</p>
-        </div>
-
-        </div>
-    </div>
-</section>
-
-            <div class="flex items-center justify-center py-20 bg-white min-w-screen">
-    <div class="px-16 bg-white">
-        <div class="container flex flex-col items-start mx-auto lg:items-center">
-            <p class="relative flex items-start justify-start w-full text-lg font-bold tracking-wider text-blue-500 uppercase lg:justify-center lg:items-center">Tentang PMII</p>
-
-
-            <h2 class="relative flex items-start justify-start w-full max-w-3xl text-5xl font-bold lg:justify-center" id="">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="absolute right-0 hidden w-12 h-12 -mt-2 -mr-16 text-gray-200 lg:inline-block" viewBox="0 0 975.036 975.036">
-                <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z" class="">
-                </path>
-            </svg>
-                Apa kata tokoh?</h2>
-                <div class="block w-full h-1 max-w-lg mt-6 bg-purple-100 rounded-full"></div>
-
-            <div class="items-center justify-center w-full mt-12 mb-4 lg:flex">
-                <div class="flex flex-col items-start justify-start w-full h-auto mb-12 lg:w-1/3 lg:mb-0">
-                    <div class="flex items-center justify-center">
-                        <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
-                            <img src="img/jokowi.jpg" class="object-cover w-full h-full">
-                        </div>
-                        <div class="flex flex-col items-start justify-center">
-                            <h4 class="font-bold text-gray-800">Ir. H. Joko Widodo</h4>
-                            <p class="text-gray-600">Presiden Republik Indonesia</p>
-                        </div>
-                    </div>
-                    <blockquote class="mt-8 text-lg text-gray-500">"PMII merupakan organisasi kemahasiswaan yang menjunjung tinggi nilai-nilai kebangsaan. Saya optimis masa depan Indonesia akan semakin cerah jika kader-kader PMII semangatnya tetap dipertahankan."</blockquote>
-                </div>
-                <div class="flex flex-col items-start justify-start w-full h-auto px-0 mx-0 mb-12 border-l border-r border-transparent lg:w-1/3 lg:mb-0 lg:px-8 lg:mx-8 lg:border-gray-200" id="">
-                    <div class="flex items-center justify-center">
-                        <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
-                            <img src="img/khofifah.jpg" class="object-cover w-full h-full" id="">
-                        </div>
-                        <div class="flex flex-col items-start justify-center">
-                            <h4 class="font-bold text-gray-800" id="">Dra. Khofifah Indar Parawansa</h4>
-                            <p class="text-gray-600" id="">Gubernur Jawa Timur</p>
-                            <p class="text-gray-600" id="">Ketua PC PMII Surabaya 1989-1990</p>
-                        </div>
-                    </div>
-                    <blockquote class="mt-8 text-lg text-gray-500" id="">"Kader PMII agar lebih aktif dan kreatif dalam mengasah kemampuannya sebagai aset masa depan bangsa perlu didorong dan didukung dalam melakukan aktivitasnya selama itu baik. Sehingga kader PMII bisa mengambil peran dalam kemajuan bangsa Indonesia."</blockquote>
-                </div>
-                <div class="flex flex-col items-start justify-start w-full h-auto lg:w-1/3">
-                    <div class="flex items-center justify-center">
-                        <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
-                            <img src="img/gus-miftah.jpg" class="object-cover w-full h-full" id="">
-                        </div>
-                        <div class="flex flex-col items-start justify-center">
-                            <h4 class="font-bold text-gray-800">KH. Miftah Maulana Habiburrahman</h4>
-                            <h4 class="font-bold text-gray-800">(Gus Miftah)</h4>
-                            <p class="text-gray-600">Ulama</p>
-                            <p class="text-gray-600">Alumni PMII</p>
-                        </div>
-                    </div>
-                    <blockquote class="mt-8 text-lg text-gray-500">"PMII semakin istiqomah dalam mempertahankan aqidah Ahlussunnah wal Jam'ah dan semakin konsisten dalam mencetak generasi pemimpin bangsa yang luar biasa."</blockquote>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<footer class="text-gray-700 bg-white body-font" >
-    <div class="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
-        <a href="#"><img class="object-contain w-18 h-8" src="img/logo.png" alt="PMII Airlangga"></a>
-        <p class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">&copy; 2021 PMII Airlangga
+    <section class="py-20 bg-white">
+      <div class="container max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold tracking-tight text-center">
+          Rayon dalam PMII Airlangga
+        </h2>
+        <p class="mt-2 text-lg text-center text-gray-600">
+          Ada 7 Rayon bagian dari PMII Komisariat Airlangga.
         </p>
-        <span class="inline-flex justify-center space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
-        <p class="text-sm text-gray-500">Dibuat dengan <i class="fa fa-heart" style="color:crimson"></i>
-        </p>
-        </span>
-    </div>
-</footer>
-<!-- This example requires Tailwind CSS v2.0+ -->
-<div class="bg-indigo-600">
-    <div class="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between flex-wrap">
-        <div class="w-0 flex-1 flex items-center">
-          <span class="flex p-2 rounded-lg bg-indigo-800">
-            <!-- Heroicon name: outline/speakerphone -->
-            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
-            </svg>
-          </span>
-          <p class="ml-3 font-medium text-white truncate">
-            <span class="md:hidden">
-              We announced a new product!
-            </span>
-            <span class="hidden md:inline">
-              Big news! We're excited to announce a brand new product.
-            </span>
+        <div
+          class="
+            grid grid-cols-4
+            gap-8
+            mt-10
+            sm:grid-cols-8
+            lg:grid-cols-12
+            sm:px-8
+            xl:px-0
+          "
+        >
+          <div
+            class="
+              relative
+              flex flex-col
+              items-center
+              justify-between
+              col-span-4
+              px-8
+              py-12
+              space-y-4
+              overflow-hidden
+              bg-gray-100
+              sm:rounded-xl
+            "
+          >
+            <div
+              class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full"
+            >
+              <img src="img/humaniora.jpg" class="object-cover w-full h-full" />
+            </div>
+            <a
+              href="https://instagram.com/pmiirayonhumaniora"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><h4
+                class="text-xl font-medium text-gray-700 hover:text-blue-600"
+              >
+                Rayon Humaniora
+              </h4></a
+            >
+            <p class="text-base text-center text-gray-500">
+              Rayon Humaniora merupakan rayon di Fakultas Ilmu Budaya.
+            </p>
+          </div>
+
+          <div
+            class="
+              flex flex-col
+              items-center
+              justify-between
+              col-span-4
+              px-8
+              py-12
+              space-y-4
+              bg-gray-100
+              sm:rounded-xl
+            "
+          >
+            <div
+              class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full"
+            >
+              <img src="img/c.jpg" class="object-cover w-full h-full" />
+            </div>
+            <a
+              href="https://instagram.com/pmiicrayonairlangga"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><h4
+                class="text-xl font-medium text-gray-700 hover:text-blue-600"
+              >
+                Rayon C
+              </h4></a
+            >
+            <p class="text-base text-center text-gray-500">
+              Rayon C merupakan rayon di kawasan kampus C terdiri dari FKH, FST,
+              FPK, dan FTMM.
+            </p>
+          </div>
+
+          <div
+            class="
+              flex flex-col
+              items-center
+              justify-between
+              col-span-4
+              px-8
+              py-12
+              space-y-4
+              bg-gray-100
+              sm:rounded-xl
+            "
+          >
+            <div
+              class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full"
+            >
+              <img src="img/fisip.jpg" class="object-cover w-full h-full" />
+            </div>
+            <a
+              href="https://instagram.com/pmiifisipunair"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><h4
+                class="text-xl font-medium text-gray-700 hover:text-blue-600"
+              >
+                Rayon FISIP
+              </h4></a
+            >
+            <p class="text-base text-center text-gray-500">
+              Rayon FISIP merupakan rayon di Fakultas Imu Sosial dan Politik.
+            </p>
+          </div>
+
+          <div
+            class="
+              flex flex-col
+              items-center
+              justify-between
+              col-span-4
+              px-8
+              py-12
+              space-y-4
+              bg-gray-100
+              sm:rounded-xl
+            "
+          >
+            <div
+              class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full"
+            >
+              <img src="img/vokasi.jpg" class="object-cover w-full h-full" />
+            </div>
+            <a
+              href="https://instagram.com/sahabat_vokasi"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><h4
+                class="text-xl font-medium text-gray-700 hover:text-blue-600"
+              >
+                Rayon Vokasi
+              </h4></a
+            >
+            <p class="text-base text-center text-gray-500">
+              Rayon Vokasi merupakan rayon di Fakultas Vokasi.
+            </p>
+          </div>
+
+          <div
+            class="
+              flex flex-col
+              items-center
+              justify-between
+              col-span-4
+              px-8
+              py-12
+              space-y-4
+              bg-gray-100
+              sm:rounded-xl
+            "
+          >
+            <div
+              class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full"
+            >
+              <img src="img/hukum.jpg" class="object-cover w-full h-full" />
+            </div>
+            <a
+              href="https://instagram.com/pmiifhunair"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><h4
+                class="text-xl font-medium text-gray-700 hover:text-blue-600"
+              >
+                Rayon Hukum
+              </h4></a
+            >
+            <p class="text-base text-center text-gray-500">
+              Rayon Hukum merupakan rayon di Fakultas Hukum.
+            </p>
+          </div>
+
+          <div
+            class="
+              flex flex-col
+              items-center
+              justify-between
+              col-span-4
+              px-8
+              py-12
+              space-y-4
+              bg-gray-100
+              sm:rounded-xl
+            "
+          >
+            <div
+              class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full"
+            >
+              <img src="img/ekonomi.jpg" class="object-cover w-full h-full" />
+            </div>
+            <a
+              href="https://instagram.com/pmiiekonomiairlangga"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><h4
+                class="text-xl font-medium text-gray-700 hover:text-blue-600"
+              >
+                Rayon Ekonomi
+              </h4></a
+            >
+            <p class="text-base text-center text-gray-500">
+              Rayon Ekonomi merupakan rayon di Fakultas Ekonomi dan Bisnis.
+            </p>
+          </div>
+
+          <div
+            class="
+              flex flex-col
+              items-center
+              justify-between
+              col-span-4
+              px-8
+              py-12
+              space-y-4
+              bg-gray-100
+              sm:rounded-xl
+            "
+          >
+            <div
+              class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full"
+            >
+              <img src="img/kesehatan.jpg" class="object-cover w-full h-full" />
+            </div>
+            <a
+              href="https://instagram.com/kesehatanairlangga"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><h4
+                class="text-xl font-medium text-gray-700 hover:text-blue-600"
+              >
+                Rayon Kesehatan
+              </h4></a
+            >
+            <p class="text-base text-center text-gray-500">
+              Rayon Kesehatan merupakan rayon di rumpun ilmu kesehatan terdiri
+              dari FK, FKG, FKP, FKM, dan FF.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="flex items-center justify-center py-20 bg-white min-w-screen">
+      <div class="px-16 bg-white">
+        <div
+          class="container flex flex-col items-start mx-auto lg:items-center"
+        >
+          <p
+            class="
+              relative
+              flex
+              items-start
+              justify-start
+              w-full
+              text-lg
+              font-bold
+              tracking-wider
+              text-blue-500
+              uppercase
+              lg:justify-center lg:items-center
+            "
+          >
+            Tentang PMII
           </p>
-        </div>
-        <div class="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
-          <a href="#" class="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-600 bg-white hover:bg-indigo-50">
-            Learn more
-          </a>
-        </div>
-        <div class="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
-          <button type="button" class="-mr-1 flex p-2 rounded-md hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2">
-            <span class="sr-only">Dismiss</span>
-            <!-- Heroicon name: outline/x -->
-            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+
+          <h2
+            class="
+              relative
+              flex
+              items-start
+              justify-start
+              w-full
+              max-w-3xl
+              text-5xl
+              font-bold
+              lg:justify-center
+            "
+            id=""
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="
+                absolute
+                right-0
+                hidden
+                w-12
+                h-12
+                -mt-2
+                -mr-16
+                text-gray-200
+                lg:inline-block
+              "
+              viewBox="0 0 975.036 975.036"
+            >
+              <path
+                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                class=""
+              ></path>
             </svg>
-          </button>
+            Apa kata tokoh?
+          </h2>
+          <div
+            class="block w-full h-1 max-w-lg mt-6 bg-purple-100 rounded-full"
+          ></div>
+
+          <div class="items-center justify-center w-full mt-12 mb-4 lg:flex">
+            <div
+              class="
+                flex flex-col
+                items-start
+                justify-start
+                w-full
+                h-auto
+                mb-12
+                lg:w-1/3 lg:mb-0
+              "
+            >
+              <div class="flex items-center justify-center">
+                <div
+                  class="
+                    w-16
+                    h-16
+                    mr-4
+                    overflow-hidden
+                    bg-gray-200
+                    rounded-full
+                  "
+                >
+                  <img
+                    src="img/jokowi.jpg"
+                    class="object-cover w-full h-full"
+                  />
+                </div>
+                <div class="flex flex-col items-start justify-center">
+                  <h4 class="font-bold text-gray-800">Ir. H. Joko Widodo</h4>
+                  <p class="text-gray-600">Presiden Republik Indonesia</p>
+                </div>
+              </div>
+              <blockquote class="mt-8 text-lg text-gray-500">
+                "PMII merupakan organisasi kemahasiswaan yang menjunjung tinggi
+                nilai-nilai kebangsaan. Saya optimis masa depan Indonesia akan
+                semakin cerah jika kader-kader PMII semangatnya tetap
+                dipertahankan."
+              </blockquote>
+            </div>
+            <div
+              class="
+                flex flex-col
+                items-start
+                justify-start
+                w-full
+                h-auto
+                px-0
+                mx-0
+                mb-12
+                border-l border-r border-transparent
+                lg:w-1/3 lg:mb-0 lg:px-8 lg:mx-8 lg:border-gray-200
+              "
+              id=""
+            >
+              <div class="flex items-center justify-center">
+                <div
+                  class="
+                    w-16
+                    h-16
+                    mr-4
+                    overflow-hidden
+                    bg-gray-200
+                    rounded-full
+                  "
+                >
+                  <img
+                    src="img/khofifah.jpg"
+                    class="object-cover w-full h-full"
+                    id=""
+                  />
+                </div>
+                <div class="flex flex-col items-start justify-center">
+                  <h4 class="font-bold text-gray-800" id="">
+                    Dra. Khofifah Indar Parawansa
+                  </h4>
+                  <p class="text-gray-600" id="">Gubernur Jawa Timur</p>
+                  <p class="text-gray-600" id="">
+                    Ketua PC PMII Surabaya 1989-1990
+                  </p>
+                </div>
+              </div>
+              <blockquote class="mt-8 text-lg text-gray-500" id="">
+                "Kader PMII agar lebih aktif dan kreatif dalam mengasah
+                kemampuannya sebagai aset masa depan bangsa perlu didorong dan
+                didukung dalam melakukan aktivitasnya selama itu baik. Sehingga
+                kader PMII bisa mengambil peran dalam kemajuan bangsa
+                Indonesia."
+              </blockquote>
+            </div>
+            <div
+              class="
+                flex flex-col
+                items-start
+                justify-start
+                w-full
+                h-auto
+                lg:w-1/3
+              "
+            >
+              <div class="flex items-center justify-center">
+                <div
+                  class="
+                    w-16
+                    h-16
+                    mr-4
+                    overflow-hidden
+                    bg-gray-200
+                    rounded-full
+                  "
+                >
+                  <img
+                    src="img/gus-miftah.jpg"
+                    class="object-cover w-full h-full"
+                    id=""
+                  />
+                </div>
+                <div class="flex flex-col items-start justify-center">
+                  <h4 class="font-bold text-gray-800">
+                    KH. Miftah Maulana Habiburrahman
+                  </h4>
+                  <h4 class="font-bold text-gray-800">(Gus Miftah)</h4>
+                  <p class="text-gray-600">Ulama</p>
+                  <p class="text-gray-600">Alumni PMII</p>
+                </div>
+              </div>
+              <blockquote class="mt-8 text-lg text-gray-500">
+                "PMII semakin istiqomah dalam mempertahankan aqidah Ahlussunnah
+                wal Jam'ah dan semakin konsisten dalam mencetak generasi
+                pemimpin bangsa yang luar biasa."
+              </blockquote>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  
+
+    <footer class="text-gray-700 bg-white body-font">
+      <div
+        class="
+          container
+          flex flex-col
+          items-center
+          px-8
+          py-8
+          mx-auto
+          max-w-7xl
+          sm:flex-row
+        "
+      >
+        <a href="#"
+          ><img
+            class="object-contain w-18 h-8"
+            src="img/logo.png"
+            alt="PMII Airlangga"
+        /></a>
+        <p
+          class="
+            mt-4
+            text-sm text-gray-500
+            sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0
+          "
+        >
+          &copy; 2021 PMII Airlangga
+        </p>
+        <span
+          class="
+            inline-flex
+            justify-center
+            space-x-5
+            sm:ml-auto sm:mt-0 sm:justify-start
+          "
+        >
+          <p class="text-sm text-gray-500">
+            Dibuat dengan <i class="fa fa-heart" style="color: crimson"></i>
+          </p>
+        </span>
+      </div>
+    </footer>
+
     <button id="topBtn"><i class="fa fa-angle-up"></i></button>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.0/alpine.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <script>
+      AOS.init();
+    </script>
     <script src="scroll.js"></script>
-</body>
+  </body>
 </html>
